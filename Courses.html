@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel = "stylesheet" type = "text/css" href = "Courses.css" />
+	<title>Admission page</title>
+</head>
+<body>
+<div class="jumbotron text-center">
+  <h2>This is a sample bootstrap page</h2>
+  <h3>This is a course info page</h3>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Course 1</h3>
+      <p>Master's of Data Science</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Course 2</h3>
+      <p>Master's of Information Technology</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Course 3</h3>
+      <p>Master's of Business Information Science</p>
+    </div>
+  </div>
+</div>
+<div class="details">
+<p>
+	Please Enter your details so that we can contact you
+</p>
+</div>
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+
+<div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Masters of Data Science</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+        <div class="panel-body">This is master's of data science course</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Master's of Information Technology</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body">This is master's of Information Technology course</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Master's of Business Information Science</a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body">This is master's of Business Information Science course</div>
+      </div>
+    </div>
+  </div> 
+</div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</body>
+</html>
